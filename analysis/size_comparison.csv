@@ -1,0 +1,8 @@
+comparison,classical_algorithm,classical_parameter,classical_object,pqc_algorithm,pqc_parameter,pqc_object,classical_size_bytes,pqc_size_bytes,size_ratio_pqc_to_classical,additional_bytes
+ECDSA_to_ML-DSA_Signature,ECDSA,P-256,Signature,ML-DSA,65,Signature,72,3309,45.958333333333336,3237
+ECDH_to_ML-KEM_PublicKey,ECDH,P-256,PublicKey,ML-KEM,768,PublicKey,91,1184,13.010989010989011,1093
+ECDH_to_ML-KEM_PrivateKey,ECDH,P-256,PrivateKey,ML-KEM,768,PrivateKey,138,64,0.463768115942029,-74
+ECDH_to_ML-KEM_SharedSecret,ECDH,P-256,SharedSecret,ML-KEM,768,SharedSecret,32,32,1.0,0
+ML-KEM_Ciphertext_vs_ECDH_PublicKey,ECDH,P-256,PublicKey,ML-KEM,768,Ciphertext,91,1088,11.956043956043956,997
+RSA_to_ML-DSA_PublicKey,RSA,2048,PublicKey,ML-DSA,65,PublicKey,294,1952,6.639455782312925,1658
+RSA_to_ML-KEM_PublicKey,RSA,2048,PublicKey,ML-KEM,768,PublicKey,294,1184,4.0272108843537415,890

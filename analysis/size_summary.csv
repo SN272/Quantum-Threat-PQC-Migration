@@ -1,0 +1,16 @@
+algorithm,parameter,object_type,size_bytes,serialization
+RSA,2048,PublicKey,294,DER-SPKI
+RSA,2048,PrivateKey,1216,DER-PKCS8
+ECDSA,P-256,PublicKey,91,DER-SPKI
+ECDSA,P-256,PrivateKey,138,DER-PKCS8
+ECDSA,P-256,Signature,72,DER-ECDSA
+ECDH,P-256,PublicKey,91,DER-SPKI
+ECDH,P-256,PrivateKey,138,DER-PKCS8
+ECDH,P-256,SharedSecret,32,Raw
+ML-KEM,768,PublicKey,1184,StandardizedRaw
+ML-KEM,768,PrivateKey,64,StandardizedRaw
+ML-KEM,768,Ciphertext,1088,Raw
+ML-KEM,768,SharedSecret,32,Raw
+ML-DSA,65,PublicKey,1952,StandardizedRaw
+ML-DSA,65,PrivateKey,32,StandardizedRaw
+ML-DSA,65,Signature,3309,StandardizedRaw
