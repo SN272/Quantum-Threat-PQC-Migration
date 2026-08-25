@@ -3,19 +3,19 @@ threats = {
         "security_assumption": "Integer factorization",
         "quantum_algorithm": "Shor's Algorithm",
         "quantum_status": "Vulnerable",
-        "migration_target": "ML-DSA for signatures"
+        "migration_target": "ML-KEM-768 for key establishment/encryption; ML-DSA-65 for signatures"
     },
     "ECDSA-P256": {
         "security_assumption": "Elliptic Curve Discrete Logarithm Problem",
         "quantum_algorithm": "Shor's Algorithm",
         "quantum_status": "Vulnerable",
-        "migration_target": "ML-DSA"
+        "migration_target": "ML-DSA-65"
     },
     "ECDH-P256": {
         "security_assumption": "Elliptic Curve Discrete Logarithm Problem",
         "quantum_algorithm": "Shor's Algorithm",
         "quantum_status": "Vulnerable",
-        "migration_target": "ML-KEM"
+        "migration_target": "ML-KEM-768"
     },
     "AES-256": {
         "security_assumption": "Symmetric-key security",
@@ -33,5 +33,5 @@ threats = {
 
 for algo, info in threats.items():
     print("\n", algo)
-    for key,value in info.items():
+    for key, value in info.items():
         print(f"{key}: {value}")
